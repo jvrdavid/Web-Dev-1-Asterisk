@@ -1,0 +1,256 @@
+body{
+    background-color: lightgray;
+    overflow-x: hidden;
+}
+.navigator{
+    position: relative;
+    margin-top:-1%;
+    margin-left:-1%;
+    margin-right:-0.6%;
+    overflow: hidden;
+    background-color: #333;
+}
+.navigator a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: .8vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header1{
+    position: relative;
+    margin-top:5%;
+    left:30%;
+}
+.bgcolor{
+    position: absolute;
+    margin-left: -1%;
+    background-color: white;
+    height:15vw;
+    width:99.5vw;
+}
+.logo{
+    position: absolute;
+    top:0%;
+    left:11%;
+    height:20vw;
+    width:20vw;
+}
+.logo2{
+    position: absolute;
+    margin-top: -7%;
+    left:75%;
+    height:10vw;
+    width:16vw;
+}
+.search{
+    display: flex;
+}
+.search_text{
+    background-color: white;
+    height:4.1vw;
+    width:38vw;
+    outline: none;
+}
+.search_button{
+    background-color: orangered;
+    height:4.45vw;
+    width:4.4vw;
+    border: 1px solid orangered;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+.icons{
+    height:3vw;
+    width:3vw;
+}
+.personal_information1{
+    position: absolute;
+    margin-top:10%;
+    left:5%;
+    border-radius: 1vw 1vw 1vw 1vw;
+    background-color: white;
+    height:10vw;
+    width:30vw;
+}
+table.info{
+    position: relative;
+    margin-top: 2%;
+    padding:2vw;
+}
+table.info2{
+    position: relative;
+    margin-top: .9%;
+    padding:2vw;
+}
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1vw;
+}
+.manage1{
+    position: absolute;
+    margin-top:2%;
+    left:2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1.2vw;
+    font-size: 1.1vw;
+
+}
+.manage2{
+    position: absolute;
+    margin-top:1%;
+    left:2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1.2vw;
+    font-size: 1.1vw;
+
+}
+a .manage{
+    color: black;
+    cursor: pointer;
+}
+
+.manage3{
+    position: absolute;
+    margin-top:-1%;
+    left:73%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1.2vw;
+    font-size: 1.1vw;
+}
+
+a .manage3{
+    color: black;
+    cursor: pointer;
+}
+.manage{
+    position: absolute;
+    margin-top:-2%;
+    left:43%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1.2vw;
+    font-size: 1.1vw;
+
+}
+
+.personal_information2{
+    position: absolute;
+    margin-top: 10%;
+    left:37%;
+    border-radius: 1vw 1vw 1vw 1vw;
+    background-color: white;
+    height:10vw;
+    width:59vw;
+}
+.purchased_products{
+    position: absolute;
+    margin-top: 21%;
+    left:5%;
+    border-radius: 1vw 1vw 1vw 1vw;
+    background-color: white;
+    height:20vw;
+    width:90.5vw;
+}
+.display_purchased_product{
+    position: relative;
+    margin-top: 6%;
+    left:43%;
+    opacity: .5;
+}
+.sad_meme_logo{
+    height:5vw;
+    width:10vw;
+}
+.no_product{
+    position: relative;
+    left:-3.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+}
+.divider1{
+    position: relative;
+    margin-top: 45%;
+    left:1%;
+    width:80vw;
+    border: 1px solid black;
+}
+.ads2{
+    position: absolute;
+    left:9%;    
+}
+.ads2_1{
+    position: relative;
+    height:8vw;
+    width:25vw;
+}
+.supporters{
+    position: relative;
+    margin-top: -5%;
+}
+.support_branches1{
+    position: absolute;
+    margin-top: 20%;
+    left:7%;
+    height:20vw;
+    width:25vw;
+}
+.support_branches2{
+    position: absolute;
+    margin-top: 20%;
+    left:37%;
+    height:20vw;
+    width:25vw;
+}
+.lblsupp_branch{
+    position: relative;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    left:12%;
+}
+.support_branches1 li{
+    list-style-type: none;
+}
+.support_branches1 li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    color:black;
+}
+.support_branches1 li a:hover{
+    background-color: white;
+}
+.support_branches2 li{
+    list-style-type: none;
+}
+.support_branches2 li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    color:black;
+}
+.support_branches2 li a:hover{
+    background-color: white;
+}
+.logo_branches{
+    position: absolute;
+    margin-top:20%;
+    left:70%;
+}
+.supp_branch_logo{
+    height:10vw;
+    width:20vw;
+}
+.footer{
+    position: relative;
+    margin-top: 60%;
+    margin-left: -1%;
+    margin-bottom: 0%;
+    background-color: black;
+    height:9vw;
+    width:101.6%;
+}

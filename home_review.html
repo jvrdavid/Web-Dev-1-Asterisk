@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Asterisk Online</title>
+        <link rel="stylesheet" type="text/css" href="home.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        <div class="navigator">
+            <a href="log_in_form.html">LOG IN</a>
+            <a href="home_review.html">HOME</a>
+        </div>
+
+        
+    <div class="bgcolor">
+    </div>
+
+        <div class="header1">
+            <div class="search">
+                <input type="text" placeholder="Search..." class="search_text"/>
+                <button class="search_button"><img src="productsample/magnifying_glass_icon.png" class="icons"/></button>
+            </div>
+        </div>
+        <img src="photobg/advertisement_4.png" class="logo2"/>
+        <img src="photobg/LogoWebsite.png" class="logo"/>
+
+        <div class="content1">
+            <div class="category">
+                <ul>
+                    <li><a href="">Action Figure</a></li>
+                    <li><a href="">Posters</a></li>
+                    <li><a href="">Accessories</a></li>
+                    <li><a href="">Figurines</a></li>
+                    <li><a href="">Miniature</a></li>
+                    <li><a href="">Fake Weapons</a></li>
+                    <li><a href="">Costumes</a></li>
+                    <li><a href="">Case</a></li>
+                    <li><a href="">Bed Sheets</a></li>
+                    <li><a href="">Shoes</a></li>
+                    <li><a href="">T-Shirt</a></li>
+                    <li><a href="">Shorts</a></li>
+                    <li><a href="">Furnitures</a></li>
+                    <li><a href="">Vases</a></li>
+                    <li><a href="">Replica</a></li>
+                    <li><a href="">Books</a></li>
+                    <li><a href="">Comics</a></li>
+                    <li><a href="">Tapes</a></li>
+                    <li><a href="">CD's</a></li>
+                    <li><a href="">Games Console</a></li>
+                    <li><a href="">Mobile Case</a></li>
+                </ul>
+            </div>
+    
+            <div class="ads">
+                <img src="imgsld/imgsld1.jpg" class="ads_slide"/>
+                <img src="imgsld/imgsld2.jpg" class="ads_slide"/>
+                <img src="imgsld/imgsld3.jpg " class="ads_slide"/>
+            </div>
+
+            <script>
+                var myIndex = 0;
+                carousel();
+                
+                function carousel() {
+                  var i;
+                  var x = document.getElementsByClassName("ads_slide");
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                  }
+                  myIndex++;
+                  if (myIndex > x.length) {myIndex = 1}    
+                  x[myIndex-1].style.display = "block";  
+                  setTimeout(carousel, 5000); // Change image every 2 seconds
+                }
+                </script>
+
+        </div>
+
+        <label class="lbldisplay_product">OTHER PRODUCTS</label>
+       
+        <div class="display_products">
+            <table cellpadding="4">
+                <tr>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt1.jpg" class="product"/>
+                                <br>
+                                <label class="name_of_product">Batman Action Figure</label>
+                                <br><br>
+                                <label class="price_of_product">P 1,000.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt2.jpg" class="product"/>
+                                <br>
+                                <label class="name_of_product">4 Set Action Figure</label>
+                                <br><br>
+                                <label class="price_of_product">P 1,500.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                </td>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt3.jpg" class="product"/>
+                                <br>
+                                <label class="name_of_product">Yeti Action Figure</label>
+                                <br><br>
+                                <label class="price_of_product">P 500.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt4.jpg" class="product"/>
+                                <br>
+                                <label class="name_of_product">Transformer Action Figure</label>
+                                <br><br>
+                                <label class="price_of_product">P 1,900.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt5.jpg" class="product"/>
+                                <br>
+                                <label class="name_of_product">One Punch Man Action Figure</label>
+                                <br>
+                                <label class="price_of_product">P 2,000.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt6.jpg" class="product"/>
+                                <br>
+                                <label class="name_of_product">Sasuke Action Figure</label>
+                                <br><br>
+                                <label class="price_of_product">P 1,000.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt7.jpg" class="product"/>
+                                <br>
+                                <label class="name_of_product">Batman Action Figure</label>
+                                <br><br>
+                                <label class="price_of_product">P 1,000.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                </td>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt8.jpg" class="product"/>
+                                <br>
+                                <label class="name_of_product">Voltes 5 Action Figure</label>
+                                <br><br>
+                                <label class="price_of_product">P 3,000.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt9.jpg" class="product"/>
+                                <br>
+                                <label class="name_of_product">Pacific Rim Action Figure</label>
+                                <br><br>
+                                <label class="price_of_product">P 5,000.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt10.jpg" class="product"/>
+                                <br>
+                                <label class="name_of_product">Viking Action Figure</label>
+                                <br><br>
+                                <label class="price_of_product">P 1,000.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt11.png" class="product"/>
+                                <br>
+                                <label class="name_of_product">Gundam Unicorn Action Figure</label>
+                                <br>
+                                <label class="price_of_product">P 10,000.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt12.jpg" class="product"/>
+                                <br>
+                                <label class="name_of_product">Jedi Action Figure</label>
+                                <br><br>
+                                <label class="price_of_product">P 1,000.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                </td>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt13.jpg" class="product"/>
+                                <br>
+                                <label class="name_of_product">Iron Man Action Figure</label>
+                                <br><br>
+                                <label class="price_of_product">P 1,000.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt14.jpg" class="product"/>
+                                <br>
+                                <label class="name_of_product">Mazinger Action Figure</label>
+                                <br><br>
+                                <label class="price_of_product">P 7,000.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt15.jpg" class="product"/>
+                                <br>
+                                <label class="name_of_product">Optimus Prime Action Figure</label>
+                                <br>
+                                <label class="price_of_product">P 10,000.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt16.jpg" class="product"/>
+                                <br>
+                                <label class="name_of_product">Food War Poster</label>
+                                <br><br>
+                                <label class="price_of_product">P 500.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt17.jpg" class="product"/>
+                                <br>
+                                <label class="name_of_product">Haikyuu Poster</label>
+                                <br><br>
+                                <label class="price_of_product">P 1,000.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                </td>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt18.jpg" class="product"/>
+                                <br>
+                                <label class="name_of_product">Bofuri Poster</label>
+                                <br><br>
+                                <label class="price_of_product">P 200.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt19.jpg" class="product"/>
+                                <br>
+                                <label class="name_of_product">Black Clover Poster</label>
+                                <br><br>
+                                <label class="price_of_product">P 1,000.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="log_in_form.html">
+                            <div class="dp">
+                                <img src="productsample/pdt20.jpg" class="product"/>
+                                <br>
+                                <label class="name_of_product">Kakashi Hatake Poster</label>
+                                <br><br>
+                                <label class="price_of_product">P 1,000.00</label>
+                                <div class="add_to_cart">
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <label class="other_products"><a href="">LOAD MORE</a></label>
+
+        <hr class="divider1"></hr>
+
+        <div class="ads2">
+            <table cellpadding="16">
+                <tr>
+                    <td><img src="photobg/advertisement_1.png" class="ads2_1"/></td>
+                    <td><img src="photobg/advertisement_2.png" class="ads2_1"/></td>
+                    <td><img src="photobg/advertisement_3.png" class="ads2_1"/></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="supporters">
+            <div class="support_branches1">
+                <label class="lblsupp_branch">Customer Care Center</label>
+                <ul>
+                    <li><a href="">About Asterisk Online</a></li>
+                    <li><a href="">Affiliate Program</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Terms and Condition</a></li>
+                    <li><a href="">Privacy and Policy</a></li>
+                    <li><a href="">Press & Media</a></li>
+                </ul>
+            </div>
+    
+            <div class="support_branches2">
+                <label class="lblsupp_branch">Asterisk Online</label>
+                <ul>
+                    <li><a href="">About Asterisk Online</a></li>
+                    <li><a href="">Affiliate Program</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Terms and Condition</a></li>
+                    <li><a href="">Privacy and Policy</a></li>
+                    <li><a href="">Press & Media</a></li>
+                </ul>
+            </div>
+
+            <div class="logo_branches">
+                    <img src="photobg/google_play_store_logo.png" class="supp_branch_logo"/>
+                    <img src="photobg/iphone-app-store-google-play-store.jpg" class="supp_branch_logo"/>
+                    <img src="photobg/window_app_store.png" class="supp_branch_logo"/>
+            </div>
+        </div>
+        
+        <div class="footer">
+        </div>
+    </body>
+</html>

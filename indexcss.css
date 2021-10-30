@@ -1,0 +1,137 @@
+body { 
+
+    background-color:#262626;
+    background-size:cover;
+    width: 80%;
+    height: auto;
+    opacity: 0.9;
+}
+
+.content{
+    position:fixed;
+    background-color: #3c3c3c;
+    top:0%;
+    left:26%;
+    height:100%;
+    width:50%;
+    max-width:5000px;
+    box-shadow:  5px 10px 50px 10px black;
+    z-index:2;
+}
+.logo{
+    position:fixed;
+    top:10%;
+    left:36.5%;
+    max-width:30%;
+    height: auto;
+    z-index:2;
+}
+.bgimage{
+    position:fixed;
+    top:0%;
+    left:20%;
+    max-width:30%;
+    height: auto;
+    z-index:1;
+}
+
+.bganime{
+    position:fixed;
+    top:3%;
+    left:75%;
+    max-width:30%;
+    height: auto;
+    z-index:0;
+}
+
+.bganime1 {
+    position:fixed;
+    top:1%;
+    left:7%;
+    max-width:30%;
+    height: auto;
+    z-index:0;
+}
+
+.bganime2 {
+    position:fixed;
+    top:64%;
+    left:16%;
+    max-width:30%;
+    height: auto;
+    z-index:2;
+}
+
+.bganime3 {
+    position:fixed;
+    top:55%;
+    left:1%;
+    max-width:30%;
+    height: auto;
+    z-index:1;
+}
+
+.bganime4 {
+    position:fixed;
+    top:65%;
+    left:82%;
+    max-width:30%;
+    height: auto;
+    z-index:1;
+}
+
+.bganime5 {
+    position:fixed;
+    top:30%;
+    left:70%;
+    max-width:30%;
+    height: auto;
+    z-index:0;
+}
+
+.bganime6 {
+    position:fixed;
+    top:25%;
+    left:10%;
+    max-width:30%;
+    height: auto;
+    z-index:0;
+}
+
+.bganime7 {
+    position:fixed;
+    top:62%;
+    left:71%;
+    max-width:30%;
+    height: auto;
+    z-index:2;
+}
+
+.bgresponsive{
+    position: fixed;
+    top:1%;
+    left:27.5%;
+    width: 47%;
+    max-width:800px;
+    height: auto;
+    opacity: .5;
+    
+}
+
+.buttondecor {
+    background-color:#262626;
+    position:fixed;
+    top:75%;
+    left:41.3%;
+    z-index:2;
+    width: 20%;
+    max-width:800px;
+    height: auto;
+    font-size:2vw;
+    color:white;
+    font-weight:bold;
+    padding:1vw;
+    border-radius:1vw 1vw 1vw 1vw;
+    box-shadow:  5px 10px 50px 10px black;
+}
+
